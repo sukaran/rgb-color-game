@@ -4,11 +4,14 @@ body{
 
 .square {
  width:30%;
- background-color: purple;
+ background-color: #232323;
  padding-bottom:30%;  
  float:left; 
  margin:1.66%;
-
+border-radius: 15%;
+transition: background 0.6s;
+-webkit-transition : background 0.6s;
+-moz-transition : background 0.6s;
 }
 
 #container
@@ -18,12 +21,74 @@ body{
 }
 
 h1{
-    font-size: 100px;
+    text-align: center;
+    font-size: 70px;
     margin-left: 1000px;
-    color: black;
+    color:white;
+    margin: 0;
+    font-weight:normal; 
+    text-transform: uppercase;
+    
+}
+body{
+    margin: 0;
+    font-family: "Montserrat","Avenir";
 }
 #upperlip
 {
+    font-size: 10px;
     height:300px;
-    background-color: cyan;
+    background-color : cyan;
+}
+button{
+    border: none;
+    background: none;
+    text-transform:uppercase;
+    height:100%;
+    font-weight:700;
+    color: cyan;
+    letter-spacing: 1px;
+
+    transition:  all 0.9s;
+}
+button:hover {
+    color:white;
+    background: cyan;
+     
+}
+#try
+{
+    
+    font-size: 50px;
+    height:70px;
+    width:100%;
+    background-color: white;
+}
+
+#message{
+    font-size: 35px;
+    margin-left: 10%;
+    background-color: white;
+    display: inline-block;
+    width:2%;
+}
+
+#reset
+{
+    margin-left: 20%;
+    font-size: 17px;
+}
+
+#easybtn
+{
+    
+    margin-left:50%;
+}
+.selected
+{
+    background: cyan; 
+}
+#colorDisplay
+{
+    font-size: 180%;
 }
